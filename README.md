@@ -55,7 +55,9 @@ A cutting-edge AI-powered research and web scraping platform featuring two sophi
 
 ### Simple Agent Structure
 📂 simple-agent/
+
 ├── 🖥️ main.py               # MCP-based web scraping agent
+
 └── ⚙️ pyproject.toml         # Dependencies & config
 
 
@@ -89,23 +91,23 @@ A cutting-edge AI-powered research and web scraping platform featuring two sophi
 ### 🛠️ Installation
 
 1. **Clone the repo**
-   ```bash
+   
    git clone https://github.com/yourusername/ai-agent.git
    cd ai-agent
-   ```
+   
 
-2. **Set up environment variables**
+3. **Set up environment variables**
+   
    Create `.env` files in both `advanced-agent/` and `simple-agent/` directories:
-   ```bash
    # OpenAI API Key
    OPENAI_API_KEY=your_openai_api_key_here
    
    # Firecrawl API Key
    FIRECRAWL_API_KEY=your_firecrawl_api_key_here
-   ```
+  
 
-3. **Install dependencies**
-   ```bash
+4. **Install dependencies**
+   
    # For Advanced Agent
    cd advanced-agent
    uv sync
@@ -113,10 +115,10 @@ A cutting-edge AI-powered research and web scraping platform featuring two sophi
    # For Simple Agent
    cd ../simple-agent
    uv sync
-   ```
 
-4. **Start the agents**
-   ```bash
+
+5. **Start the agents**
+   
    # Advanced Research Agent
    cd advanced-agent
    python main.py
@@ -124,7 +126,7 @@ A cutting-edge AI-powered research and web scraping platform featuring two sophi
    # Simple Web Scraping Agent
    cd ../simple-agent
    python main.py
-   ```
+
 
 ## 🎯 Usage Examples
 
@@ -141,6 +143,8 @@ A cutting-edge AI-powered research and web scraping platform featuring two sophi
 - "Extract all blog posts from this website"
 - "Get the tech stack information from this page"
 - "Crawl and analyze this documentation site"
+
+
 
 ## �� Features in Detail
 
@@ -160,7 +164,7 @@ A cutting-edge AI-powered research and web scraping platform featuring two sophi
 - **Developer Experience** - DX ratings and insights
 
 #### Structured Data Output
-```python
+
 class CompanyInfo(BaseModel):
     name: str
     website: str
@@ -170,7 +174,7 @@ class CompanyInfo(BaseModel):
     language_support: List[str]
     integration_capabilities: List[str]
     developer_experience_rating: str
-```
+
 
 ### 🌐 Simple Web Scraping Agent Features
 
@@ -189,16 +193,16 @@ class CompanyInfo(BaseModel):
 ### Environment Variables
 
 #### Advanced Agent
-```bash
+
 OPENAI_API_KEY=sk-...          # OpenAI API key
 FIRECRAWL_API_KEY=fc_...       # Firecrawl API key
-```
+
 
 #### Simple Agent
-```bash
+
 OPENAI_API_KEY=sk-...          # OpenAI API key
 FIRECRAWL_API_KEY=fc_...       # Firecrawl API key
-```
+
 
 ### Model Configuration
 - **GPT-4o-mini** - Fast and cost-effective for research
@@ -245,7 +249,7 @@ For enterprise: GitLab offers comprehensive DevOps...
 ## 🚀 Deployment
 
 ### Local Development
-```bash
+
 # Advanced Agent
 cd advanced-agent
 uv run python main.py
@@ -253,7 +257,7 @@ uv run python main.py
 # Simple Agent
 cd simple-agent
 uv run python main.py
-```
+
 
 ### Production Considerations
 - **API Key Rotation** - Regular key updates
@@ -270,7 +274,7 @@ uv run python main.py
 5. **Open a Pull Request** 🚀
 
 ### Development Setup
-```bash
+
 # Install development dependencies
 uv sync --dev
 
@@ -283,31 +287,11 @@ uv run isort .
 
 # Type checking
 uv run mypy .
-```
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## �� Acknowledgments
-
-- **OpenAI** - GPT-4 language model 🤖
-- **LangChain** - AI application framework 🔗
-- **Firecrawl** - Web scraping capabilities 🕷️
-- **Pydantic** - Data validation framework ✅
-- **Python Community** - Amazing ecosystem 🐍
-
-## 📞 Support
-
-- **Issues** - [GitHub Issues](https://github.com/yourusername/ai-agent/issues)
-- **Discussions** - [GitHub Discussions](https://github.com/yourusername/ai-agent/discussions)
-- **Documentation** - [Wiki](https://github.com/yourusername/ai-agent/wiki)
-
----
 
 **Ready to revolutionize your research workflow? Dive into AI-Agent today! 🚀**
 
-*Built with ❤️ using cutting-edge AI technologies*
+That's all
 
 
 
