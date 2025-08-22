@@ -35,20 +35,20 @@ A cutting-edge AI-powered research and web scraping platform featuring two sophi
 ## ��️ Architecture
 
 ### Advanced Agent Structure
-advanced-agent/
-├── src/
-│ ├── workflow.py # LangGraph workflow orchestration
-│ ├── models.py # Pydantic data models
-│ ├── prompts.py # AI prompt engineering
-│ ├── firecrawl.py # Web scraping service
-│ └── init.py
-├── main.py # CLI interface
-└── pyproject.toml # Dependencies & config
+📂 advanced-agent/
+├── 📁 src/
+│   ├── 🔄 workflow.py        # LangGraph workflow orchestration
+│   ├── 📊 models.py          # Pydantic data models  
+│   ├── 💭 prompts.py         # AI prompt engineering
+│   ├── 🕷️ firecrawl.py       # Web scraping service
+│   └── 📦 __init__.py
+├── 🖥️ main.py               # CLI interface
+└── ⚙️ pyproject.toml         # Dependencies & config
 
 ### Simple Agent Structure
-simple-agent/
-├── main.py # MCP-based web scraping agent
-└── pyproject.toml # Dependencies & config
+📂 simple-agent/
+├── 🖥️ main.py               # MCP-based web scraping agent
+└── ⚙️ pyproject.toml         # Dependencies & config
 
 
 ## 🛠️ Tech Stack
