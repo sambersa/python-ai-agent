@@ -218,24 +218,42 @@ FIRECRAWL_API_KEY=fc_...       # Firecrawl API key
 ============================================================
 🏢 GitHub
 🌐 Website: https://github.com
+
 �� Pricing: Freemium
+
 �� Open Source: False
+
 ��️ Tech Stack: Git, REST API, GraphQL
+
 💻 Language Support: All languages
+
 🔌 API: ✅ Available
+
 🔗 Integrations: CI/CD, IDEs, Slack
+
 📝 Description: Comprehensive code review with inline comments...
+
 🏢 GitLab
 🌐 Website: https://gitlab.com
+
 �� Pricing: Freemium
+
 �� Open Source: True
+
 ��️ Tech Stack: Git, Ruby, Go
+
 💻 Language Support: All languages
+
 🔌 API: ✅ Available
+
 🔗 Integrations: Kubernetes, Docker, AWS
+
 📝 Description: Complete DevOps platform with advanced code review...
+
 Developer Recommendations:
+
 For small teams: GitHub provides excellent integration...
+
 For enterprise: GitLab offers comprehensive DevOps...
 
 
